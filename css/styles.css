@@ -74,6 +74,7 @@ html, body {
     border-radius: 8px;
 }
 
+
 /* 🔹 Sobre Mí */
 #about {
     padding: 60px 0;
@@ -122,7 +123,7 @@ html, body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 135px;
 }
 
 .habilidades-icons i {
@@ -137,13 +138,15 @@ html, body {
 }
 
 /* 🔹 Proyectos */
-
+#projects {
+    padding: 60px 0;
+    text-align: center;
+}
 #projects h2 {
     font-size: 3rem;
     color: #bbbbbb;
-    text-align: center;
-    margin-bottom: 20px;
 }
+
 
 /* 🔹 Footer */
 
