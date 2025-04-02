@@ -22,7 +22,7 @@ Check out the live version of my portfolio here: **[Live Demo](https://portafoli
 ## 📬 Contact Me
 - **GitHub:** [github.com/FavioRD](https://github.com/FavioRD)
 - **LinkedIn:** [linkedin.com/in/favio-ramos](https://www.linkedin.com/in/favio-ramos-75b545282/)
-- **Email:** your.email@example.com
+- **Email:** favioramosd@gmail.com
 
 ## 🏆 Future Improvements
 - Adding a blog section
