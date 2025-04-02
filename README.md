@@ -16,23 +16,18 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Icons & UI:** FontAwesome
 - **Hosting:** GitHub Pages (or any other preferred hosting service)
 
-## 📸 Preview
-
-![Portfolio Preview](assets/preview.png)
-
-
 ## 🔗 Live Demo
-Check out the live version of my portfolio here: **https://portafolio-rosy-nu-36.vercel.app/**
+Check out the live version of my portfolio here: **[Live Demo](https://portafolio-rosy-nu-36.vercel.app/)**
 
 ## 📬 Contact Me
-- **GitHub:** [github.com/your-username]([https://github.com/your-username](https://github.com/FavioRD))
-- **LinkedIn:** [linkedin.com/in/your-profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/favio-ramos-75b545282/))
-- **Email:** favioramosd@gmail.com
+- **GitHub:** [github.com/your-username](https://github.com/FavioRD)
+- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/favio-ramos-75b545282/)
+- **Email:** your.email@example.com
 
 ## 🏆 Future Improvements
 - Adding a blog section
 - Integrating a backend for dynamic content
 - Implementing dark/light mode toggle
 
-Feel free to fork this project or contribute by submitting a pull request! 🚀
+
 
