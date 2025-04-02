@@ -27,7 +27,7 @@ Check out the live version of my portfolio here: **[Live Demo](portafolio-rosy-n
 ## 📬 Contact Me
 - **GitHub:** [github.com/your-username]([https://github.com/your-username](https://github.com/FavioRD))
 - **LinkedIn:** [linkedin.com/in/your-profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/favio-ramos-75b545282/))
-- **Email:** your.email@example.com
+- **Email:** favioramosd@gmail.com
 
 ## 🏆 Future Improvements
 - Adding a blog section
