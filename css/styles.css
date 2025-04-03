@@ -149,6 +149,31 @@ html, body {
 
 
 /* 🔹 Footer */
+.footer {
+    background-color: #2d2d2d;
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    background-color: #bbbbbb;
+}
+
 
 /* 🔹 Botón General */
 .btn-primary {
