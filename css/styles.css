@@ -87,7 +87,7 @@ html, body {
 }
 
 #about img {
-    width: 250px;
+    width: 300px;
     border: 5px solid #6b696a;
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -146,7 +146,18 @@ html, body {
     font-size: 3rem;
     color: #bbbbbb;
 }
+.col-md-4 {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    padding: 30px;
+}
+.card {
+    flex: 1;
+}
 
+.col-md-4:hover {
+    transform: translateY(-5px);
+}
 
 /* 🔹 Footer */
 .footer {
