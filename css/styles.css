@@ -1,5 +1,6 @@
 /* 🔹 Configuración General */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -10,18 +11,13 @@ html, body {
     --c2: #4e4f51;
     --c3: #3c3c3c;
 
-    background: repeating-conic-gradient(
-          from 30deg,
-          #0000 0 120deg,
-          var(--c3) 0 180deg
-        )
-        calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
-      repeating-conic-gradient(
-        from 30deg,
-        var(--c1) 0 60deg,
-        var(--c2) 0 120deg,
-        var(--c3) 0 180deg
-      );
+    background: repeating-conic-gradient(from 30deg,
+            #0000 0 120deg,
+            var(--c3) 0 180deg) calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+        repeating-conic-gradient(from 30deg,
+            var(--c1) 0 60deg,
+            var(--c2) 0 120deg,
+            var(--c3) 0 180deg);
     background-size: var(--s) calc(var(--s) * 0.577);
     color: white;
 }
@@ -53,7 +49,8 @@ html, body {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    /*background: rgba(0, 0, 0, 0.5);*//*puede añadirse*/
+    /*background: rgba(0, 0, 0, 0.5);*/
+    /*puede añadirse*/
 }
 
 #home h1 {
@@ -142,15 +139,18 @@ html, body {
     padding: 60px 0;
     text-align: center;
 }
+
 #projects h2 {
     font-size: 3rem;
     color: #bbbbbb;
 }
+
 .col-md-4 {
     display: flex;
     transition: transform 0.3s ease-in-out;
     padding: 30px;
 }
+
 .card {
     flex: 1;
 }
@@ -196,6 +196,56 @@ html, body {
 .btn-primary:hover {
     background-color: #969090;
 }
+
+/* 🔹 Contacto */
+.titlecont{
+    font-size: 3rem;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fade-message {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-message.show {
+    opacity: 1;
+}
+
+/* 🔹 Estilos de formulario */
+.form-control {
+    border-radius: 8px;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #6b696a;
+}
+
+.form-control:focus {
+    background-color: #f1e3e3;
+    border-color: #000000;
+    box-shadow: none;
+}
+
+
+/*🔹 Estilos de botones */
+.btn-primary {
+    background-color: #3d3d3d;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6b696a;
+}
+
+
+
 
 /* 🔹 Estilos responsivos */
 @media (max-width: 768px) {
