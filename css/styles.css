@@ -159,12 +159,44 @@ body {
     transform: translateY(-5px);
 }
 
-/* 🔹 Footer */
+
+
+/* 🔹 Botón General */
+.btn-primary {
+    background-color: #3d3d3d;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #969090;
+}
+
+.titlecont {
+    font-size: 3rem;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mensaje de éxito/error */
+.fade-message {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-message.show {
+    opacity: 1;
+}
+
+/* Footer */
 .footer {
     background-color: #2d2d2d;
     text-align: center;
 }
 
+/* Redes Sociales */
 .social-icon {
     display: inline-flex;
     align-items: center;
@@ -184,51 +216,6 @@ body {
     transform: scale(1.1);
     background-color: #bbbbbb;
 }
-
-
-/* 🔹 Botón General */
-.btn-primary {
-    background-color: #3d3d3d;
-    border: none;
-    transition: background 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #969090;
-}
-
-/* 🔹 Contacto */
-.titlecont{
-    font-size: 3rem;
-    color: #bbbbbb;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.fade-message {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.fade-message.show {
-    opacity: 1;
-}
-
-/* 🔹 Estilos de formulario */
-.form-control {
-    border-radius: 8px;
-    background-color: #3d3d3d;
-    color: #ffffff;
-    border: 1px solid #6b696a;
-}
-
-.form-control:focus {
-    background-color: #f1e3e3;
-    border-color: #000000;
-    box-shadow: none;
-}
-
 
 /*🔹 Estilos de botones */
 .btn-primary {
