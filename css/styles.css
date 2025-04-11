@@ -53,6 +53,18 @@ body {
     /*puede añadirse*/
 }
 
+.typing-effect::after {
+    content: "|";
+    animation: blink 1s infinite;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
 #home h1 {
     font-size: 3.5rem;
     font-weight: bold;

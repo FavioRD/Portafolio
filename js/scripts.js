@@ -58,3 +58,20 @@ const form = document.getElementById("contact-form");
       }, 500);
     }, 2000);
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const text = "Hello, I'm Favio!";
+    const speed = 100;
+    let index = 0;
+    const typingElement = document.querySelector(".typing-effect");
+
+    function type() {
+        if (index < text.length) {
+            typingElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, speed);
+        }
+    }
+
+    type();
+});
