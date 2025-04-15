@@ -1,109 +1,106 @@
-/* 🔹 Configuración General */
-html,
-body {
+#about,
+#projects,
+.habilidades {
+    padding: 60px 0
+}
+
+#home p,
+.section-title,
+.titlecont {
+    margin-bottom: 20px
+}
+
+#about,
+#home,
+#projects,
+.footer,
+.section-title,
+.titlecont {
+    text-align: center
+}
+
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     --s: 200px;
     --c1: #1d1d1d;
     --c2: #4e4f51;
     --c3: #3c3c3c;
-
-    background: repeating-conic-gradient(from 30deg,
-            #0000 0 120deg,
-            var(--c3) 0 180deg) calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
-        repeating-conic-gradient(from 30deg,
-            var(--c1) 0 60deg,
-            var(--c2) 0 120deg,
-            var(--c3) 0 180deg);
-    background-size: var(--s) calc(var(--s) * 0.577);
-    color: white;
-}
-
-/* 🔹 Navbar */
-.navbar {
-    background: rgba(0, 0, 0, 0.8) !;
+    background: repeating-conic-gradient(from 30deg, #0000 0 120deg, var(--c3) 0 180deg) calc(.5 * var(--s)) calc(.5 * var(--s) * .577), repeating-conic-gradient(from 30deg, var(--c1) 0 60deg, var(--c2) 0 120deg, var(--c3) 0 180deg);
+    background-size: var(--s) calc(var(--s) * .577);
+    color: #fff
 }
 
 .navbar-brand {
-    font-size: 1.8rem;
-    color: #ffffff !;
+    font-size: 1.8rem
 }
 
 .navbar-nav .nav-link {
-    color: white !;
     font-size: 1.2rem;
-    transition: color 0.3s ease;
+    transition: color .3s
 }
 
-.navbar-nav .nav-link:hover {
-    color: #6e6e6e !;
-}
-
-/* 🔹 Hero Section */
 #home {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    text-align: center;
-    /*background: rgba(0, 0, 0, 0.5);*/
-    /*puede añadirse*/
+    height: 100vh
 }
 
 .typing-effect::after {
     content: "|";
-    animation: blink 1s infinite;
-    font-weight: bold;
-    margin-left: 5px;
+    animation: 1s infinite blink;
+    font-weight: 700;
+    margin-left: 5px
 }
 
 @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
 }
 
 #home h1 {
     font-size: 3.5rem;
-    font-weight: bold;
-    color: #bbbbbb;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    color: #bbb;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, .8)
 }
 
 #home p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.5rem
 }
 
 #home .btn {
     font-size: 1.2rem;
     padding: 10px 25px;
-    border-radius: 8px;
-}
-
-
-/* 🔹 Sobre Mí */
-#about {
-    padding: 60px 0;
-    text-align: center;
+    border-radius: 8px
 }
 
 #about h2 {
     font-size: 2.5rem;
-    color: #bbbbbb;
+    color: #bbb
 }
 
 #about img {
     width: 300px;
     border: 5px solid #6b696a;
     border-radius: 50%;
-    transition: transform 0.3s ease;
+    transition: transform .3s
 }
 
 #about img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1)
 }
 
 #about p {
@@ -111,104 +108,73 @@ body {
     color: #f7f7f7;
     max-width: 700px;
     margin: auto;
-    line-height: 1.6;
+    line-height: 1.6
 }
 
-/* 🔹 Habilidades */
+#projects h2,
+.section-title,
+.titlecont {
+    font-size: 3rem;
+    color: #bbb
+}
+
 .habilidades {
-    background: transparent;
-    padding: 60px 0;
+    background: 0 0
 }
 
 .section-title {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #bbbbbb;
-    margin-bottom: 20px;
-    text-align: center;
+    font-weight: 700
 }
 
 .habilidades-icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 135px;
+    gap: 135px
 }
 
 .habilidades-icons i {
     font-size: 70px;
-    color: #ffffff;
-    transition: transform 0.3s ease, color 0.3s ease;
+    color: #fff;
+    transition: transform .3s, color .3s
 }
 
 .habilidades-icons i:hover {
     transform: scale(1.2);
-    color: #e7c7cd;
-}
-
-/* 🔹 Proyectos */
-#projects {
-    padding: 60px 0;
-    text-align: center;
-}
-
-#projects h2 {
-    font-size: 3rem;
-    color: #bbbbbb;
+    color: #e7c7cd
 }
 
 .col-md-4 {
     display: flex;
-    transition: transform 0.3s ease-in-out;
-    padding: 30px;
+    transition: transform .3s ease-in-out;
+    padding: 30px
 }
 
 .card {
-    flex: 1;
+    flex: 1
 }
 
 .col-md-4:hover {
-    transform: translateY(-5px);
-}
-
-
-
-/* 🔹 Botón General */
-.btn-primary {
-    background-color: #3d3d3d;
-    border: none;
-    transition: background 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #969090;
+    transform: translateY(-5px)
 }
 
 .titlecont {
-    font-size: 3rem;
-    color: #bbbbbb;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: bold;
+    font-weight: 700
 }
 
-/* Mensaje de éxito/error */
 .fade-message {
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity .5s ease-in-out
 }
 
 .fade-message.show {
-    opacity: 1;
+    opacity: 1
 }
 
-/* Footer */
 .footer {
-    background-color: #2d2d2d;
-    text-align: center;
+    background-color: #2d2d2d
 }
 
-/* Redes Sociales */
 .social-icon {
     display: inline-flex;
     align-items: center;
@@ -216,71 +182,65 @@ body {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #000;
     border-radius: 50%;
     font-size: 24px;
     text-decoration: none;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: transform .3s, background-color .3s
 }
 
 .social-icon:hover {
     transform: scale(1.1);
-    background-color: #bbbbbb;
+    background-color: #bbb
 }
 
-/*🔹 Estilos de botones */
 .btn-primary {
     background-color: #3d3d3d;
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
     font-size: 1.2rem;
-    transition: background-color 0.3s ease;
+    transition: background-color .3s
 }
 
 .btn-primary:hover {
-    background-color: #6b696a;
+    background-color: #6b696a
 }
 
-
-
-
-/* 🔹 Estilos responsivos */
-@media (max-width: 768px) {
+@media (max-width:768px) {
     #home h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem
     }
 
     #home p {
-        font-size: 1.2rem;
+        font-size: 1.2rem
     }
 
     .habilidades-icons {
-        gap: 20px;
+        gap: 20px
     }
 
     .habilidades-icons i {
-        font-size: 40px;
+        font-size: 40px
     }
 
     #about img {
-        width: 200px;
+        width: 200px
     }
 
     #about p {
-        font-size: 16px;
+        font-size: 16px
     }
 }
 
-/* 🔹 Animaciones de entrada */
 .fade-in {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    transition: opacity .8s ease-out, transform .8s ease-out
 }
 
 .fade-in.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0)
 }
