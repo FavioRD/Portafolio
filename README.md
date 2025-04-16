@@ -20,8 +20,8 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 Check out the live version of my portfolio here: **[Live Demo](https://portafolio-rosy-nu-36.vercel.app/)**
 
 ## 📬 Contact Me
-- **GitHub:** [github.com/FavioRD](https://github.com/FavioRD)
-- **LinkedIn:** [linkedin.com/in/favio-ramos](https://www.linkedin.com/in/favio-ramos-75b545282/)
+- **GitHub:** (https://github.com/FavioRD)
+- **LinkedIn:** (https://www.linkedin.com/in/favio-ramos-75b545282/)
 - **Email:** favioramosd@gmail.com
 
 ## 🏆 Future Improvements
