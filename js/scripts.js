@@ -74,6 +74,5 @@ const form = document.getElementById("contact-form");
             setTimeout(type, speed);
         }
     }
-
     type();
 });
